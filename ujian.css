@@ -1,0 +1,557 @@
+/* BAGIAN CONTAINER */
+.container {
+    width: 100%;
+}
+
+/* BAGIAN LOGO BRAND */
+.logo {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo>.brand {
+    width: 190px;
+    height: auto;
+}
+
+/* BAGIAN NAVBAR MENU */
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu>a {
+    padding: 20px;
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu>a:hover {
+    color: red;
+}
+
+/* BAGIAN HEADER PERTAMA */
+#header {
+    background: url(assets/image/header.jpeg);
+    height: 70vh;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    position: relative;
+}
+
+#header>.tittle {
+    text-align: center;
+    color: whitesmoke;
+    font-family: roboto;
+    position: absolute;
+    padding: 15px;
+}
+
+#header>.tittle>strong {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-family: helvetica;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.dark {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+}
+
+.tengah {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: Helvetica;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bawah {
+    color: white;
+    font-family: calibri;
+    font-weight: 400;
+}
+
+.btn-buy {
+    margin-top: 40px;
+    height: 50px;
+    width: 200px;
+    background: linear-gradient(to right, rgb(216, 104, 48), rgb(234, 69, 69));
+    color: aliceblue;
+    border: none;
+    font-family: helvetica;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 15px 30px;
+
+}
+
+.btn-buy:hover {
+    box-shadow: 0 0 20px 0px rgba(90, 85, 85, 0.986);
+}
+
+/* BAGIAN TULISAN SETELAH SETIAP HEADER */
+#icon>.judul {
+    margin-top: 30px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 40px;
+}
+
+/* BAGIAN KOTAK GAMBAR */
+#shop {
+    padding: 30px;
+    justify-content: center;
+}
+
+.box {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box>img {
+    width: 100%;
+    height: 100%;
+    filter: brightness(50%);
+}
+
+.box>p {
+    position: absolute;
+    font-size: 15px;
+    color: aliceblue;
+    font-family: Roboto;
+    text-decoration: underline;
+    margin-top: 80px;
+}
+
+.box>p:hover {
+    transform: scale(1.1);
+    background-color: antiquewhite;
+}
+
+.box>strong {
+    position: absolute;
+    font-size: 30px;
+    color: aliceblue;
+    font-family: Roboto;
+}
+
+.box-produk {
+    height: 350px;
+    display: flex;
+    /* margin-top: 70px;  */
+    padding: 70px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Roboto;
+    background-color: white;
+}
+
+.box-produk:hover {
+    transform: scale(1.1);
+    background-color: white;
+    box-shadow: 3px 3px 5px darkgrey;
+}
+
+.btn-view {
+    padding: 9px;
+    margin-top: 15px;
+    color: coral;
+    border-color: coral;
+    background-color: white;
+}
+
+.btn-view.hover {
+    background-color: coral;
+    color: white;
+}
+
+/* BAGIAN PRODUCT GAMBAR DI DALAM BOX*/
+.product {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.produk {
+    width: 70%;
+    height: 170px;
+}
+
+p {
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: Calibri;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foto {
+    background: whitesmoke;
+    box-sizing: border-box;
+    border-radius: 1opx;
+    height: 250px;
+    width: 350px;
+    padding: 30px 30px;
+}
+
+.ket {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    font-family: Roboto;
+}
+
+.ket>p {
+    font-weight: 450;
+    color: black;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 600;
+    font-family: Roboto;
+}
+
+.foto:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+    background: white;
+}
+
+@media(max-width: 700px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+.hero-btn {
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+    margin-top: 15px;
+    padding: 3px 20px;
+    border-radius: 2px;
+    font-family: HELVETICA;
+    font-weight: 580;
+    margin-bottom: 30px;
+}
+
+.hero-btn:hover {
+    background: linear-gradient(to right, rgb(216, 104, 48), rgb(234, 69, 69));
+    color: white;
+    border: linear-gradient(to right, rgb(216, 104, 48), rgb(234, 69, 69));
+}
+
+/* BAGIAN HEADER KEDUA */
+#estetika {
+    background: url(assets/image/bg-for-what-is.jpg);
+    height: auto;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+
+.inf {
+    font-family: Roboto;
+    position: relative;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.inf>span {
+    font-family: helvetica;
+    position: relative;
+    font-size: 17px
+}
+
+.filter1 {
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+    opacity: 0.8;
+    position: absolute;
+}
+
+.right>img {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    padding: 20px;
+}
+
+.btn-1 {
+    position: relative;
+    padding: 10px 20px;
+    background: linear-gradient(to right, rgb(216, 104, 48), rgb(234, 69, 69));
+    border: none;
+    height: 35px;
+    width: 35%;
+    font-weight: bold;
+    color: white;
+    margin-top: 15px;
+    border-radius: 2px;
+
+    font-family: HELVETICA;
+    font-weight: 580;
+    margin-bottom: 30px;
+}
+
+.btn-1:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* BAGIAN CARD ICON PEKERJAAN */
+.works {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.rop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.works-col>img {
+    width: 95px;
+    margin-bottom: 17px;
+    margin-top: 25px;
+}
+
+.works-col>h3 {
+    font-size: 23px;
+    font-family: helvetica;
+}
+
+.works-col>.exp {
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: Calibri;
+    color: black;
+}
+
+.works-col {
+    height: 350px;
+    flex-basis: 30%;
+    background: white;
+    border-radius: 1opx;
+    margin-bottom: 5%;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+    align-items: center;
+}
+
+.works-col:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to right, rgb(216, 104, 48), rgb(234, 69, 69));
+    color: white;
+}
+
+.exp:hover {
+    color: white;
+}
+
+@media(max-width: 700px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+/* BAGIAN HEADER KETIGA */
+#headerbawah {
+    background: url(assets/image/bg-for-solution.jpg);
+    height: 70vh;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    position: relative;
+}
+
+#headerbawah>.tittlee {
+    text-align: center;
+    color: whitesmoke;
+    font-family: roboto;
+    position: absolute;
+    padding: 15px;
+}
+
+#headerbawah>.tittlee>strong {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-family: helvetica;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.tittlee>p {
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: 19px;
+    margin-top: 15px;
+}
+
+.darkbawah {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(234, 67, 15, 0.911);
+    opacity: 0.8;
+    position: absolute;
+}
+
+#headerbawah>.tittlee>h1 {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: Roboto;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-select {
+    margin-top: 40px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 15px 60px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.btn-select:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* BAGIAN GALLERY BAWAH */
+#gallery {
+    margin-top: 20px;
+}
+
+#gallery>h3 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.box {
+    background-color: antiquewhite;
+    height: 220px;
+    margin: 20px;
+    position: relative;
+}
+
+.bungkus-box {
+    justify-content: center;
+}
+
+.box>img {
+    width: 100%;
+    height: 100%;
+}
+
+.box>h5 {
+    position: absolute;
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+}
+
+.teks {
+    font-family: roboto;
+    font-size: 20px;
+}
+
+/* BAGIAN BLOG */
+#blog {
+    justify-content: center;
+    padding: 20px;
+}
+
+#blog>.box-bg {
+    margin: 20px;
+}
+
+#blog>.box-bg>.ak {
+    width: 100%;
+    height: 60%;
+    margin-bottom: 8px;
+}
+
+#blog>.box-bg>h3 {
+    font-size: 20px;
+    font-family: calibri;
+    text-align: left;
+    font-weight: 550;
+}
+
+#blog>.box-bg>span {
+    font-size: 14px;
+    font-family: calibri;
+    font-weight: bold;
+    color: gray;
+}
+
+#blog>.box-bg>.lm {
+    margin-top: 80px;
+    font-size: 14px;
+    font-family: roboto;
+    font-weight: bold;
+    color: rgb(255, 94, 0);
+    text-decoration: none;
+}
+
+/* BAGIAN FOOTER */
+.footer {
+    background-color: black;
+    padding: 25px;
+}
+
+.nulis {
+    color: lightgrey;
+    font-family: calibri;
+    font-size: 11px;
+    text-align: center;
+}
